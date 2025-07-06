@@ -1,0 +1,255 @@
+html {
+  height: 100%;
+  width: 100%;                                     
+  text-align: center;
+  background: radial-gradient(circle,rgba(54, 54, 54, 1) 60%, rgba(33, 33, 33, 1) 100%);
+  position: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+#Cuerpo{
+  width: 99%;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background-color: #E8A236;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header{
+  
+  width: 100%;
+  text-align: center;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-color: #E8A236;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Aboreto';
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0px; 
+}
+
+input[type="number"] {
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-radius: 18px;
+  text-align: center;
+
+  border-color: #E8A236;
+  height: 30px;
+  width: 70px;
+  margin: 0 auto;
+}
+
+#Bloques{
+  padding: 10px;
+  border-width: 2px;
+  border-bottom: 100%;
+  border-style: solid;
+  border-radius: 20px;
+  border-color:#E8A236;
+  box-shadow: #e8a13652 0px 0px 15px;
+  height: 60%;
+  width: 180px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 25px;
+}
+p{
+  color: #E8A236;
+  font-size: 15px;
+  font: 'Arbutus';
+}
+
+
+main{
+  position: flex;
+  align-items: center;
+  height: 85%;
+  width: 100%;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border-color: #E8A236;
+}
+
+input::placeholder{
+  font-size: 10px;
+  text-align: center;
+  font-family:'Aboreto';
+}
+
+
+input[type="button"] {
+  font-family:'Aboreto';
+  font-size: 10px;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 4px;
+  margin-top: 10px;
+  height: 30px;
+  width: 150px;
+}
+
+#Comenzar:hover{
+  font-family: 'Aboreto';
+  background-color: #303030;
+  color: rgb(255, 255, 255);
+  border-color: white;
+  font-size: 15px;
+  box-shadow: #ffffff68 0px 0px 15px;
+}
+
+#Limpiar:hover{
+  font-family: 'Aboreto';
+  border-color: white;
+  background-color: #303030;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  box-shadow: #ffffff68 0px 0px 15px;
+}
+
+#Tablas{
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+table, th, tr, td{
+  margin: 0 auto;
+  width: 300px;
+  border-left: 1px solid #E8A236;
+  border-right: 1px solid #E8A236;
+  text-align: center;
+  font-size: 13px;
+  color: #E8A236;
+  border-collapse : collapse;
+  padding: 6px
+}
+
+table{
+  border-bottom: 1px solid #E8A236;
+}
+
+td:hover{
+  background-color: rgb(77, 77, 77);
+}
+
+th{
+  background-color: #3e3e3e1e;
+  text-shadow: #ffffff68 0px 0px 10px;
+  color: rgb(0, 0, 0);
+  border-top: 1px solid #E8A236;
+  border-bottom: 1px solid #E8A236;
+  color: #ffffff;
+}
+
+
+#Columna{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+  position: flex;
+  align-items: center;
+}
+blockquote{
+  font-style: italic;
+  color: #ffffff;
+  font-size: 14px;
+  font-family:'Times New Roman', Times, serif;
+  padding: 1px;
+  margin: 1px;
+}
+
+footer{
+  padding-top: 10px;
+  margin: 10px;
+  border: 0px;
+  border-top: 1px solid #E8A236;
+}
+
+#StringDontCare{
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Aboreto';
+}
+
+#BotonesDontCare{
+  margin: 3px;
+  align-items: center;
+  margin-top: 3px;
+  margin-bottom: 17px;
+  background-color: rgba(245, 222, 179, 0);
+  border-radius: 5px;
+  border-color: #E8A236;
+  color: white;
+}
+
+#BotonesDontCare:hover{
+  background-color: #303030;
+  color: rgb(255, 255, 255);
+  border-color: white;
+  font-size: 15px;
+  box-shadow: #ffffff68 0px 0px 15px;
+}
+
+#Minter{
+  padding: 0px;
+  margin: 0px;
+}
+
+#Dont{
+  padding: 0px;
+  margin: 0px;
+}
+
+h4{
+  color: #E8A236;
+  font-family: 'Aboreto';
+  font-size: 15px;
+  margin: 8px;
+  padding: 8px;
+}
+
+h3{
+  color: white;
+  font-family: 'Aboreto';
+  font-size: 10px;
+  margin: 5px;
+  padding: 5px;
+  margin-top: 20px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Aboreto' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Arbutus' rel='stylesheet'>
+  <style>
+  body {
+      font-family: 'Aboreto';font-size: 22px;
+  }
+  </style>
+  <meta name="viewport" content="width=device-width">
+  <title>Quine-McCluskey</title>
+  <link href="{{url_for('static', filename='css/style.css')}}" rel="stylesheet" type="text/css" />
+  <script defer src="{{ url_for('static', filename='script/script.js') }}"></script>
+</head>
+
+  <body>
+    <div id="Cuerpo">
+      <header>
+         <h1>Quine-McCluskey</h1>
+      </header>
+
+      <main>
+
+        <div>
+        
+        <div id="Bloques">
+          <p>Ingrese valor a valor.</p>
+          <input type="number" id="Minterminos" placeholder="M">
+          <input type="number" id="DontCare" placeholder="X">
+          <input type="button" id="Comenzar"  value="Comenzar">
+          <input type="button" id="Limpiar"  value="Reiniciar">
+        </div>
+  
+        <div id="MinterminosTexto">
+          <h3>Para borra un valor clickealo.</h3>
+          <div id="Minter"><h4>Minterminos</h4></div>
+          <div id="Dont"><h4>Don't Care</h4></div>
+          <hr>
+          <p id="EcuacionLogica"></p>
+          <hr>
+        </div>
+
+        <div id="Columna"> <div id="Tablas"></div> </div>
+
+        
+        <footer>
+          <blockquote>Creadores:</blockquote>
+          <blockquote>David Alvarez | Ruben Romero | Lázaro Martínez | Winston Manzanares</blockquote>
+          <blockquote>UTEC | Fecha: 07/07/2025 | Versión: 1.7.10</blockquote>
+          <blockquote></blockquote>
+        </footer>
+      </main>
+    </div>
+
+</body>
+
+</html>
+
